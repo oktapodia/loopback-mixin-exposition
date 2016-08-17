@@ -1,3 +1,3 @@
 'use strict';
 
-module.exports = require('./dist/MethodExposition');
+module.exports = require('./dist/methodExposition');

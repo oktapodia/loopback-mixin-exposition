@@ -1,8 +1,8 @@
 {
   "name": "loopback-mixin-method-exposition",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Help to manage your method exposition",
-  "main": "dist/index.js",
+  "main": "index.js",
   "scripts": {
     "test": "npm run eslint && npm run flow && npm run test:unit",
     "build": "node_modules/.bin/babel src --source-maps --out-dir dist",
