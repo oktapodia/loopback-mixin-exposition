@@ -5,13 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "npm run eslint && npm run flow && npm run test:unit",
-    "build": "node_modules/.bin/babel src --source-maps --out-dir dist",
+    "build": "node_modules/.bin/babel src --source-maps --out-dir .",
     "eslint": "node_modules/eslint/bin/eslint.js src",
     "flow": "flow",
     "postinstall": "npm run build",
     "test:unit": "mocha --compilers js:babel-core/register test/*"
   },
   "dependencies": {
+    "babel-plugin-transform-object-rest-spread": "^6.8.0",
+    "babel-plugin-transform-runtime": "^6.12.0",
     "debug": "^2.2.0",
     "loopback-datasource-juggler": "^2.48.0"
   },

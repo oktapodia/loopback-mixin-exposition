@@ -6,6 +6,8 @@
   "plugins": [
     "transform-class-properties",
     "transform-es2015-object-super",
-    "add-module-exports"
+    "add-module-exports",
+    "transform-runtime",
+    "transform-object-rest-spread"
   ]
 }
