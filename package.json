@@ -1,0 +1,63 @@
+{
+  "name": "loopback-mixin-method-exposition",
+  "version": "0.0.1",
+  "description": "Help to manage your method exposition",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "npm run eslint && npm run flow && npm run test:unit",
+    "build": "node_modules/.bin/babel src --source-maps --out-dir dist",
+    "eslint": "node_modules/eslint/bin/eslint.js src",
+    "flow": "flow",
+    "postinstall": "npm run build",
+    "test:unit": "mocha --compilers js:babel-core/register test/*"
+  },
+  "dependencies": {
+    "debug": "^2.2.0",
+    "loopback-datasource-juggler": "^2.48.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-core": "^6.9.1",
+    "babel-eslint": "^6.0.4",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-transform-class-properties": "^6.10.2",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.11.5",
+    "babel-plugin-transform-es2015-object-super": "^6.8.0",
+    "babel-plugin-transform-flow-strip-types": "^6.8.0",
+    "babel-polyfill": "^6.9.1",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-flow": "^1.0.0",
+    "chai": "^3.5.0",
+    "eslint": "^2.13.1",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-loader": "^1.3.0",
+    "eslint-plugin-flow-vars": "^0.4.0",
+    "eslint-plugin-flowtype": "^2.3.0",
+    "eslint-plugin-import": "^1.10.2",
+    "eslint-plugin-jsx-a11y": "^1.5.5",
+    "eslint-plugin-react": "^5.2.2",
+    "flow-bin": "^0.27.0",
+    "mocha": "^2.5.3",
+    "webpack": "^1.13.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oktapodia/loopback-mixin-method-exposition.git"
+  },
+  "keywords": [
+    "loopback",
+    "mixin",
+    "expose",
+    "exposition",
+    "method",
+    "control",
+    "remote method"
+  ],
+  "author": "BRAMILLE Sebastien",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/oktapodia/loopback-mixin-method-exposition/issues"
+  },
+  "homepage": "https://github.com/oktapodia/loopback-mixin-method-exposition#readme"
+}
