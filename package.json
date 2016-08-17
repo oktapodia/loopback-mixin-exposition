@@ -1,6 +1,6 @@
 {
   "name": "loopback-mixin-method-exposition",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Help to manage your method exposition",
   "main": "index.js",
   "scripts": {
