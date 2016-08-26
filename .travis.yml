@@ -1,11 +1,11 @@
 language: node_js
 
 node_js:
-  - node #latest stable Node.js release
-  - iojs #latest stable io.js release
-  - 6 #latest 6.x release
-  - 5 #latest 5.x release
-  - 4 #latest 5.x release
+  - "node"
+  - "iojs"
+  - "6"
+  - "5"
+  - "4"
 
 install:
     - npm install
