@@ -1,7 +1,7 @@
 {
-  "name": "loopback-mixin-method-exposition",
+  "name": "loopback-mixin-exposition",
   "version": "1.0.0",
-  "description": "Help to manage your method exposition",
+  "description": "Help to manage your methods & properties exposition",
   "main": "index.js",
   "scripts": {
     "test": "npm run eslint && npm run flow && npm run test:unit",
@@ -45,13 +45,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/oktapodia/loopback-mixin-method-exposition.git"
+    "url": "git+https://github.com/oktapodia/loopback-mixin-exposition.git"
   },
   "keywords": [
     "loopback",
     "mixin",
     "expose",
     "exposition",
+    "property",
     "method",
     "control",
     "remote method"
@@ -59,7 +60,7 @@
   "author": "BRAMILLE Sebastien",
   "license": "BSD",
   "bugs": {
-    "url": "https://github.com/oktapodia/loopback-mixin-method-exposition/issues"
+    "url": "https://github.com/oktapodia/loopback-mixin-exposition/issues"
   },
-  "homepage": "https://github.com/oktapodia/loopback-mixin-method-exposition#readme"
+  "homepage": "https://github.com/oktapodia/loopback-mixin-exposition#readme"
 }
